@@ -132,6 +132,8 @@
                     class="text-white text-[10px] tracking-[0.2em] font-medium hover:text-viento-gold transition-colors uppercase">Experiencia</a>
                 <a href="#detalles"
                     class="text-white text-[10px] tracking-[0.2em] font-medium hover:text-viento-gold transition-colors uppercase">Info</a>
+                <a href="#planes"
+                    class="text-white text-[10px] tracking-[0.2em] font-medium hover:text-viento-gold transition-colors uppercase">Planes</a>
                 <a href="#testimonios"
                     class="text-white text-[10px] tracking-[0.2em] font-medium hover:text-viento-gold transition-colors uppercase">Viajeros</a>
             </div>
@@ -329,6 +331,46 @@
         </div>
     </section>
 
+    <!-- What's Included Section -->
+    <section class="py-16 md:py-24 px-4 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-14">
+                <p class="text-viento-gold text-[10px] tracking-[0.4em] uppercase font-semibold mb-4">Todo incluido</p>
+                <h2 class="text-viento-navy text-3xl md:text-4xl font-light" style="font-family: Georgia, serif;">¿Qué incluye la experiencia?</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Paseo en Velero -->
+                <div class="bg-[#f5f0e8] p-8 flex flex-col items-center text-center border border-[#c8b88a]/40">
+                    <div class="text-4xl mb-6">⛵</div>
+                    <h3 class="text-viento-navy text-sm font-semibold mb-3">Paseo en Velero</h3>
+                    <p class="text-gray-500 text-xs font-light leading-relaxed">1 hora de navegación exclusiva por el Dique Potrerillos a bordo de un velero Z24 de Viento Andino Sail Tour.</p>
+                </div>
+
+                <!-- Degustación a Bordo -->
+                <div class="bg-[#f5f0e8] p-8 flex flex-col items-center text-center border border-[#c8b88a]/40">
+                    <div class="text-4xl mb-6">🍷</div>
+                    <h3 class="text-viento-navy text-sm font-semibold mb-3">Degustación a Bordo</h3>
+                    <p class="text-gray-500 text-xs font-light leading-relaxed">Vinos seleccionados de Finca Bandini para degustar mientras navegás, acompañados de tabla de quesos y frutos secos.</p>
+                </div>
+
+                <!-- Almuerzo Gourmet -->
+                <div class="bg-[#f5f0e8] p-8 flex flex-col items-center text-center border border-[#c8b88a]/40">
+                    <div class="text-4xl mb-6">🍽️</div>
+                    <h3 class="text-viento-navy text-sm font-semibold mb-3">Almuerzo Gourmet</h3>
+                    <p class="text-gray-500 text-xs font-light leading-relaxed">Menú de 3 pasos con cocina mendocina de autor en el restaurante de Finca Bandini, entre viñedos centenarios.</p>
+                </div>
+
+                <!-- Tour por Viñedos -->
+                <div class="bg-[#f5f0e8] p-8 flex flex-col items-center text-center border border-[#c8b88a]/40">
+                    <div class="text-4xl mb-6">🌿</div>
+                    <h3 class="text-viento-navy text-sm font-semibold mb-3">Tour por Viñedos</h3>
+                    <p class="text-gray-500 text-xs font-light leading-relaxed">Recorrido por los viñedos históricos y sitios patrimoniales de la finca en Las Compuertas, Luján de Cuyo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Details Section -->
     <section id="detalles" class="py-16 md:py-24 px-4 bg-white">
         <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-16">
@@ -342,8 +384,9 @@
                         <div class="border-l border-gray-100 pl-8">
                             <h4 class="text-viento-navy text-[10px] tracking-[0.3em] font-bold uppercase mb-2">
                                 Itinerario</h4>
-                            <p class="text-gray-500 font-light italic text-sm">Navegación 11:00 hs | Almuerzo 13:30 hs.
-                            </p>
+                            <p class="text-gray-500 font-light italic text-sm">11:00 hs — Navegación en Dique Potrerillos</p>
+                            <p class="text-gray-500 font-light italic text-sm mt-1">12:30 hs — Traslado a Las Compuertas</p>
+                            <p class="text-gray-500 font-light italic text-sm mt-1">13:30 hs — Almuerzo en Finca Bandini</p>
                         </div>
                     </div>
                     <div class="flex items-start group">
@@ -352,7 +395,9 @@
                         <div class="border-l border-gray-100 pl-8">
                             <h4 class="text-viento-navy text-[10px] tracking-[0.3em] font-bold uppercase mb-2">Valor
                             </h4>
-                            <p class="text-gray-500 font-light italic text-sm">$ 150.000 por persona [Base doble].</p>
+                            <p class="text-gray-500 font-light italic text-sm">$ 150.000 por persona — sin traslado</p>
+                            <p class="text-gray-500 font-light italic text-sm mt-1">$ 200.000 por persona — con traslado incluido</p>
+                            <p class="text-gray-400 font-light text-xs mt-2">Base doble · Mínimo 2 personas</p>
                         </div>
                     </div>
                     <div class="flex items-start group">
@@ -362,8 +407,8 @@
                             <h4 class="text-viento-navy text-[10px] tracking-[0.3em] font-bold uppercase mb-2">
                                 Condiciones
                             </h4>
-                            <p class="text-gray-500 font-light italic text-sm">Reserva previa del 20%. No incluye
-                                traslados.</p>
+                            <p class="text-gray-500 font-light italic text-sm">Reserva previa del 20% para confirmar lugar.</p>
+                            <p class="text-gray-500 font-light italic text-sm mt-1">El traslado incluido parte desde el Gran Mendoza.</p>
                         </div>
                     </div>
                 </div>
@@ -386,6 +431,103 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="planes" class="py-16 md:py-24 px-4 bg-viento-navy">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-14">
+                <h2 class="text-viento-gold text-xl md:text-2xl tracking-[0.3em] font-light uppercase mb-4">Elegí tu
+                    Experiencia</h2>
+                <div class="w-16 h-[1px] bg-viento-gold/40 mx-auto mb-6"></div>
+                <p class="text-white/70 text-sm font-light italic">Dos opciones para vivir la misma experiencia única.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Plan Sin Traslado -->
+                <div class="border border-viento-gold/30 p-10 md:p-12 flex flex-col hover:border-viento-gold/60 transition-colors duration-300">
+                    <div class="mb-8">
+                        <p class="text-viento-gold text-[10px] tracking-[0.4em] uppercase font-semibold mb-3">Sin traslado</p>
+                        <h3 class="text-white text-3xl font-light tracking-wide mb-1">$ 150.000</h3>
+                        <p class="text-white/50 text-xs tracking-[0.2em] uppercase">por persona · base doble</p>
+                    </div>
+                    <ul class="space-y-3 mb-10 flex-1">
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            Navegación exclusiva 1 hora en Dique Potrerillos
+                        </li>
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            Tabla de quesos y frutos secos a bordo
+                        </li>
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            Almuerzo de 3 pasos en Finca Bandini
+                        </li>
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            Tour guiado por los viñedos
+                        </li>
+                        <li class="flex items-start gap-3 text-white/40 text-sm font-light line-through">
+                            <span class="text-white/30 mt-0.5">—</span>
+                            Traslado incluido
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/542613362973?text=Hola%2C%20quisiera%20reservar%20la%20experiencia%20sin%20traslado%20por%20%24150.000%20por%20persona"
+                        target="_blank"
+                        class="w-full border border-viento-gold text-viento-gold px-8 py-4 text-[10px] tracking-[0.3em] font-bold uppercase text-center hover:bg-viento-gold hover:text-white transition-all flex items-center justify-center gap-2">
+                        <svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                        </svg>
+                        Consultar por WhatsApp
+                    </a>
+                </div>
+
+                <!-- Plan Con Traslado -->
+                <div class="border border-viento-gold bg-viento-gold/10 p-10 md:p-12 flex flex-col relative">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+                        <span class="bg-viento-gold text-white text-[9px] tracking-[0.3em] uppercase font-bold px-4 py-1.5">Más elegido</span>
+                    </div>
+                    <div class="mb-8">
+                        <p class="text-viento-gold text-[10px] tracking-[0.4em] uppercase font-semibold mb-3">Con traslado incluido</p>
+                        <h3 class="text-white text-3xl font-light tracking-wide mb-1">$ 200.000</h3>
+                        <p class="text-white/50 text-xs tracking-[0.2em] uppercase">por persona · base doble</p>
+                    </div>
+                    <ul class="space-y-3 mb-10 flex-1">
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            Navegación exclusiva 1 hora en Dique Potrerillos
+                        </li>
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            Tabla de quesos y frutos secos a bordo
+                        </li>
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            Almuerzo de 3 pasos en Finca Bandini
+                        </li>
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            Tour guiado por los viñedos
+                        </li>
+                        <li class="flex items-start gap-3 text-white/80 text-sm font-light">
+                            <span class="text-viento-gold mt-0.5">—</span>
+                            <strong class="font-semibold">Traslado ida y vuelta incluido</strong>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/542613362973?text=Hola%2C%20quisiera%20reservar%20la%20experiencia%20con%20traslado%20incluido%20por%20%24200.000%20por%20persona"
+                        target="_blank"
+                        class="w-full bg-viento-gold text-white px-8 py-4 text-[10px] tracking-[0.3em] font-bold uppercase text-center hover:bg-opacity-90 transition-all flex items-center justify-center gap-2">
+                        <svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                        </svg>
+                        Reservar con Traslado
+                    </a>
+                </div>
+            </div>
+
+            <p class="text-center text-white/30 text-xs font-light mt-10 tracking-wide">Reserva previa del 20% para confirmar tu lugar · Sujeto a disponibilidad · Mín. 2 personas</p>
         </div>
     </section>
 
